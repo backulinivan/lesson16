@@ -17,6 +17,7 @@ parser.add_argument(
 	'-a',
 	'--action',
 	metavar = 'ACTION',
+	required = 'True',
 	action = 'store',
 	help = 'action you wish to perform'
 	)
